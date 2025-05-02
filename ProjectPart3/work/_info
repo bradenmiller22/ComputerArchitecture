@@ -1,0 +1,333 @@
+m255
+K4
+z2
+!s11f vlog 2023.2 2023.04, Apr 11 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart1
+valu
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/alu.v
+!s110 1745788674
+!i10b 1
+!s100 99P^9J:]EM42m@:M>Y]TD3
+I?n7_h`ZnUgC?MG[SUQa9B1
+Z0 d//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3
+Z1 w1740502477
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/alu.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/alu.v
+!i122 390
+L0 6 271
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OP;L;2023.2;77
+r1
+!s85 0
+31
+Z4 !s108 1745788674.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/alu.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/alu.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vbr
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/br.v
+!s110 1745788675
+!i10b 1
+!s100 ;ZdMhV`X72GSa0CPOc<2m3
+I6;ACP>63YVVfWc_@k7CkW2
+R0
+w1743967573
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/br.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/br.v
+!i122 391
+L0 6 40
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/br.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/br.v|
+!i113 1
+R5
+R6
+vctrl
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/ctrl.v
+!s110 1745791800
+!i10b 1
+!s100 HAnEKfF@RYem_V?j]I0P_0
+I8D]TcTZC3<LUCXT0S9hzz1
+R0
+w1745791786
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/ctrl.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/ctrl.v
+!i122 413
+L0 6 189
+R2
+R3
+r1
+!s85 0
+31
+!s108 1745791800.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/ctrl.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/ctrl.v|
+!i113 1
+R5
+R6
+vdm
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/dm.v
+Z7 !s110 1745788677
+!i10b 1
+!s100 oK?AIBGzcZYn<YW>GAYEM3
+I6bKz558B=mB3^f?FIj8QW0
+R0
+Z8 w1745785276
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/dm.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/dm.v
+!i122 393
+L0 6 49
+R2
+R3
+r1
+!s85 0
+31
+!s108 1745788676.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/dm.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/dm.v|
+!i113 1
+R5
+R6
+vim
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/im.v
+R7
+!i10b 1
+!s100 B8UcoNoOU>4?iIoS_TA9A3
+IL87K<8CK4RFzCD8?cg9H_0
+R0
+Z9 w1743967574
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/im.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/im.v
+!i122 394
+L0 6 32
+R2
+R3
+r1
+!s85 0
+31
+Z10 !s108 1745788677.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/im.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/im.v|
+!i113 1
+R5
+R6
+vir
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/ir.v
+Z11 !s110 1745788678
+!i10b 1
+!s100 nP8b6JHE1:N;k>QChH:SQ1
+I=I[?FFoEJXl^HD><a=3Fo2
+R0
+R9
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/ir.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/ir.v
+!i122 395
+Z12 L0 6 36
+R2
+R3
+r1
+!s85 0
+31
+R10
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/ir.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/ir.v|
+!i113 1
+R5
+R6
+vmux16
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux16.v
+!s110 1745788679
+!i10b 1
+!s100 a7ob:XkMe^@6N=IdB6AZ]1
+I;@h28dTf27Tn0Z9g8T^8X1
+R0
+R8
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux16.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux16.v
+!i122 397
+Z13 L0 6 31
+R2
+R3
+r1
+!s85 0
+31
+Z14 !s108 1745788679.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux16.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux16.v|
+!i113 1
+R5
+R6
+vmux32
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux32.v
+Z15 !s110 1745788680
+!i10b 1
+!s100 6KW;i]_44F]A_d^WMoz9g0
+IKaX:TZ4eYMGYcf0NF0lBO3
+R0
+R1
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux32.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux32.v
+!i122 398
+L0 6 33
+R2
+R3
+r1
+!s85 0
+31
+R14
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux32.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux32.v|
+!i113 1
+R5
+R6
+vmux4
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux4.v
+R11
+!i10b 1
+!s100 mPXMezGImBG2:d8`kQi@l2
+Ii`zP<H4NFV0me_=T_U4AX1
+R0
+R8
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux4.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux4.v
+!i122 396
+R13
+R2
+R3
+r1
+!s85 0
+31
+!s108 1745788678.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux4.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/mux4.v|
+!i113 1
+R5
+R6
+vpc
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/pc.v
+R15
+!i10b 1
+!s100 2^IUDAFhdDIMVFQk1<7TH1
+Id[N^=L>D`FP200jl[9]]e3
+R0
+R9
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/pc.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/pc.v
+!i122 399
+L0 6 50
+R2
+R3
+r1
+!s85 0
+31
+Z16 !s108 1745788680.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/pc.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/pc.v|
+!i113 1
+R5
+R6
+vrf
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/rf.v
+!s110 1745788681
+!i10b 1
+!s100 3FLCg>DDPMNXVig?YoT>A2
+I]K7:klE=QPh]0ebBdfi2M2
+R0
+R1
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/rf.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/rf.v
+!i122 400
+L0 6 75
+R2
+R3
+r1
+!s85 0
+31
+R16
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/rf.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/rf.v|
+!i113 1
+R5
+R6
+vsisc
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/sisc.v
+!s110 1745791650
+!i10b 1
+!s100 dYWk@C_jioeNjzgedEffM3
+I;>5]<gENijnch_@Ael6;:3
+R0
+w1745791644
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/sisc.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/sisc.v
+!i122 412
+L0 7 166
+R2
+R3
+r1
+!s85 0
+31
+!s108 1745791650.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/sisc.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/sisc.v|
+!i113 1
+R5
+R6
+vsisc_tb
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/sisc_tb_p2-4.v
+!s110 1745788682
+!i10b 1
+!s100 LWoVCKIc0=Fe9^DkC?@NA3
+IDdn2d<0kiAPg8L`jNiFAe0
+R0
+R9
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/sisc_tb_p2-4.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/sisc_tb_p2-4.v
+!i122 402
+R12
+R2
+R3
+r1
+!s85 0
+31
+Z17 !s108 1745788682.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/sisc_tb_p2-4.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/sisc_tb_p2-4.v|
+!i113 1
+R5
+R6
+vstatreg
+2//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/statreg.v
+!s110 1745788683
+!i10b 1
+!s100 0bOB7]@GGUObzZdT8RNic0
+IeUb?BmN3iOHM=^870LPDX2
+R0
+R1
+8//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/statreg.v
+F//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/statreg.v
+!i122 403
+R12
+R2
+R3
+r1
+!s85 0
+31
+R17
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/statreg.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart3/statreg.v|
+!i113 1
+R5
+R6
