@@ -1,0 +1,29 @@
+{//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart1/alu.v} {1 {vlog -work work -stats=none {//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart1/alu.v}
+Model Technology ModelSim DE-64 vlog 2023.2 Compiler 2023.04 Apr 11 2023
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart1/statreg.v} {1 {vlog -work work -stats=none {//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart1/statreg.v}
+Model Technology ModelSim DE-64 vlog 2023.2 Compiler 2023.04 Apr 11 2023
+-- Compiling module statreg
+
+Top level modules:
+	statreg
+
+} {} {}} {//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart1/mux32.v} {1 {vlog -work work -stats=none {//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart1/mux32.v}
+Model Technology ModelSim DE-64 vlog 2023.2 Compiler 2023.04 Apr 11 2023
+-- Compiling module mux32
+
+Top level modules:
+	mux32
+
+} {} {}} {//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart1/rf.v} {1 {vlog -work work -stats=none {//iowa.uiowa.edu/shared/engineering/home/bmiller38/Documents/comp arch and org/ProjectPart1/rf.v}
+Model Technology ModelSim DE-64 vlog 2023.2 Compiler 2023.04 Apr 11 2023
+-- Compiling module rf
+
+Top level modules:
+	rf
+
+} {} {}}
