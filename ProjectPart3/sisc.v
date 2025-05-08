@@ -1,5 +1,5 @@
 // ECE:3350 SISC processor project
-// main SISC module, part 2
+// main SISC module, part 3
 //Braden Miller & Scott Pearson
 
 `timescale 1ns/100ps  
@@ -157,18 +157,14 @@ dm my_dm (
   // Monitor signals
   initial
   begin
+	my_dm.ram_array[8] = 32'h00000006;
+    	my_dm.ram_array[9] = 32'hFF000019;
 	$monitor("IR=%h PC=%h R1=%h R2=%h R3=%h R4=%h R5=%h ALU_OP=%b BR_SEL=%b PC_WRITE=%b PC_SEL=%b M8=%h M9=%h", 
           instr, pc_out, my_rf.ram_array[1], my_rf.ram_array[2], my_rf.ram_array[3],
           my_rf.ram_array[4], my_rf.ram_array[5], alu_op, br_sel, pc_write, pc_sel,
           my_dm.ram_array[8], my_dm.ram_array[9]);
 
   end
-always @(posedge clk)
-begin
-  $display("DEBUG: dm_we=%b mem_addr=%h write_data=%h alu_result=%h rsa=%h rsb=%h", 
-           dm_we, mem_addr, rsb, alu_result, rsa, rsb);
-end
+
 
 endmodule
-
-

@@ -1,0 +1,43 @@
+// ECE:3350 sisc processor project
+// Bubble sort N signed 32-bit integers from mem[1] to mem[N] (N = mem[0])
+
+A0100000 // 00: LDA R1, #0000       // R1 <- N = mem[0]
+21120001 // 01: ADI R2, R1, #1      // R2 <- i = 1 (outer loop start index)
+21130000 // 02: ADI R3, R0, #0      // R3 <- swapped = 0
+
+// Outer_Loop_Start:
+12325001 // 03: SUB R2, R2, R1       if i - N == 0 ? end sort
+62000020 // 04: BEQ R2, END_SORT
+
+21130000 // 05: ADI R3, R0, #0       R3 <- swapped = 0
+21140001 // 06: ADI R4, R0, #1       R4 <- j = 1
+
+// Inner_Loop_Start:
+12241001 // 07: SUB R5, R1, R4       R5 = N - j
+62000017 // 08: BEQ R5, INCR_I       if j == N ? outer loop ++
+
+21160000 // 09: ADI R6, R0, #0
+21660001 // 0A: ADI R6, R6, #1       R6 <- j + 1
+A0700004 // 0B: LDA R7, R4          R7 = mem[j]
+A0800006 // 0C: LDA R8, R6           R8 = mem[j+1]
+12875008 // 0D: SUB R9, R7, R8       R9 = R7 - R8
+63700004 // 0E: BNE R9, SKIP_SWAP    if R7 <= R8, skip swap
+
+// Swap:
+B0800004 // 0F: STA R8, #j           mem[j] = R8
+B0700006 // 10: STA R7, #j+1         mem[j+1] = R7
+21130001 // 11: ADI R3, R0, #1       swapped = 1
+
+// SKIP_SWAP:
+21440001 // 12: ADI R4, R4, #1       j++
+60000007 // 13: BNE #0, Inner_Loop_Start
+
+// INCR_I:
+21220001 // 14: ADI R2, R2, #1       i++
+12330000 // 15: SUB R3, R3, R0       if swapped == 0 ? done
+62000020 // 16: BEQ R3, END_SORT
+
+60000003 // 17: BNE #0, Outer_Loop_Start
+
+// END_SORT:
+F0000000 // 18: HLT

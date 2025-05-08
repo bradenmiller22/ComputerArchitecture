@@ -1,0 +1,36 @@
+// ECE:3350 sisc processor project
+// Multiply two unsigned 32-bit values from mem[0] and mem[1]
+// Store 64-bit result in mem[2] (LSW) and mem[3] (MSW)
+
+00000000 // 00: NOP
+A0100000 // 01: LDA  R1, #0000       ; R1 <- mem[0] (multiplicand A)
+A0200001 // 02: LDA  R2, #0001       ; R2 <- mem[1] (multiplier B)
+
+21130000 // 03: ADI  R3, R0, #0000   ; R3 = 0 (LSW)
+21140000 // 04: ADI  R4, R0, #0000   ; R4 = 0 (MSW)
+21150001 // 05: ADI  R5, R0, #0001   ; R5 = 1 (bitmask)
+21180020 // 06: ADI  R8, R0, #0020   ; R8 = 32 (bit counter)
+
+// loop:
+16325000 // 07: AND  R6, R2, R5      ; R6 = R2 & 1 (check LSB of multiplier)
+211B0000 // 08: ADI  R11, R0, #0000  ; R11 = 0
+12B66000 // 09: SUB  R11, R6, R11    ; if R6 == 0, skip addition
+62B00004 // 0A: BEQ  R11, +4         ; branch if bit is 0
+
+11313000 // 0B: ADD  R3, R3, R1      ; R3 += R1
+12175003 // 0C: SUB  R7, R3, R5      ; test carry
+12707000 // 0D: SUB  R7, R7, R0
+63700002 // 0E: BNE  R7, +2          ; if carry, then:
+1144A001 // 0F: ADD  R4, R4, R5      ; R4 += 1
+
+1B119005 // 10: SHL  R1, R1, R5      ; R1 <<= 1 (multiplicand)
+1A22A005 // 11: SHR  R2, R2, R5      ; R2 >>= 1 (multiplier)
+12285005 // 12: SUB  R8, R8, R5      ; R8--
+
+21160000 // 13: ADI  R6, R0, #0000   ; clear R6
+12686008 // 14: SUB  R6, R8, R6
+6460FFEF // 15: BNE  R6, -17         ; if R8 != 0, loop
+
+B0300002 // 16: STA  R3, #0002       ; store LSW
+B0400003 // 17: STA  R4, #0003       ; store MSW
+F0000000 // 18: HLT

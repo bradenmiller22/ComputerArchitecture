@@ -38,4 +38,4 @@ module statreg (clk, in, enable, out);
 
   assign out = outreg;
 
-endmodule 
+endmodule

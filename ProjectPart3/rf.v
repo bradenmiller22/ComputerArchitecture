@@ -47,9 +47,7 @@ module rf (clk, read_rega, read_regb, write_reg, write_data, rf_we, rsa, rsb);
   begin
      for (i = 0; i < 16; i = i + 1) begin
        ram_array[i] <= 32'H00000000;
-	 end
-     rsa <= 32'H00000000;
-     rsb <= 32'H00000000;
+     end
   end
 
   // read process is sensitive to read address.
