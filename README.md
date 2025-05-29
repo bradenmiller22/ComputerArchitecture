@@ -9,7 +9,7 @@ ComputerArchitecture/
 ├── ProjectPart1/     # Basic logic gates, adders, multiplexers
 ├── part2/            # ALU, register file, basic datapath modules
 ├── ProjectPart3/     # Complete processor (SISC) and control logic
-
+```
 
 ---
 
@@ -61,37 +61,39 @@ You can use any Verilog simulator (Icarus Verilog, ModelSim, or Vivado). Here's 
 ### 🅰️ Option A: Icarus Verilog
 
 1. Install Icarus Verilog:
-    ```bash
-    sudo apt install iverilog
-    ```
+   ```bash
+   sudo apt install iverilog
+   ```
+
 2. Compile and simulate:
-    ```iverilog -o sim.out *.v
-    vvp sim.out
-    ```
+   ```bash
+   iverilog -o sim.out *.v
+   vvp sim.out
+   ```
 
 3. Optional — View waveform:
-    ```bash
-    gtkwave dump.vcd
-    ```
+   ```bash
+   gtkwave dump.vcd
+   ```
 
 ### 🅱️ Option B: ModelSim
 
 1. Start ModelSim GUI or CLI.
 
 2. **Compile files**:
-    ```tcl
-    vlog *.v
-    ```
+   ```tcl
+   vlog *.v
+   ```
 
 3. **Simulate module**:
-    ```tcl
-    vsim top_module
-    ```
+   ```tcl
+   vsim top_module
+   ```
 
 4. **Run simulation**:
-    ```tcl
-    run -all
-    ```
+   ```tcl
+   run -all
+   ```
 
 ---
 
